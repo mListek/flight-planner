@@ -1,0 +1,106 @@
+.choiceComponent {
+  margin: 40px 0;
+  background-color: #3069b3;
+  padding: 10px 40px 30px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .choiceComponent {
+    width: 100%;
+  }
+}
+
+.startAirport, .endAirport {
+  padding: 0 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instruction-text {
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 0.5px black;
+  padding: 5px;
+}
+
+.display {
+  margin: 40px 0;
+  background-color: #3069b3;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.warning {
+  color: white;
+  border-style: double;
+  border-color: red;
+  text-align: center;
+  -webkit-text-stroke: 0.5px black;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.display-route {
+  padding: 5px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin: 12px;
+  border-radius: 50px;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: none;
+  background-color: #7590e9;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s all;
+  box-shadow: 0 0 10px black;
+}
+
+.button:hover {
+  background-color: #607fe7;
+}
+
+.button:active {
+  transform: scale(0.8);
+  box-shadow: 0 0 5px black;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  width: 29.5%;
+  border-radius: 5px;
+  padding: 15px 50px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+}
+
+@media (max-width: 800px) {
+  .choiceComponent {
+    width: 100%;
+  }
+  
+  .display {
+    width: 100%;
+  }
+}
